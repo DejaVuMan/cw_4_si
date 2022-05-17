@@ -7,5 +7,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="commons-jexl-2.1.1" level="project" />
+    <orderEntry type="library" name="com.anaptecs.jeaf.owalibs:org.apache.commons.logging:4.3.1" level="project" />
   </component>
 </module>
