@@ -7,6 +7,7 @@ public class Driver {
 
     public static void main(String[] args) {
         String truthStatement1 = "(p → (p && q || (r || q)))";
+        String truthStatement2 = "(p → !(q && r))";
 
         HashMap<Character, Boolean> values1 = new HashMap<Character, Boolean>();
         values1.put('p', true);
@@ -16,5 +17,8 @@ public class Driver {
         JexlTest test1 = new JexlTest();
 
         System.out.println(test1.plTrueJexl(truthStatement1, values1));
+
+        System.out.println(test1.plTrueJexl(truthStatement2, values1));
+
     }
 }
